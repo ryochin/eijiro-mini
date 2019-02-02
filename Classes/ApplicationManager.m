@@ -430,11 +430,11 @@ static ApplicationManager *_instance;
 	if (![self checkIfActiveSearchWord:searchWord]) {
 		return 0;
 	}
-	int dataSize = [data length];
+	int dataSize = (int)[data length];
 	if (dataSize <= 0) {
 		return 0;
 	}
-	int targetLength = [searchWordData length];
+	int targetLength = (int)[searchWordData length];
 	if (targetLength <= 0) {
 		return 0;
 	}
@@ -1032,7 +1032,7 @@ static ApplicationManager *_instance;
 // 発音記号の補正
 - (NSString *)correctPronunciationSymbolFromString:(NSString *)string {
 	int i;
-	int length = [string length];
+	int length = (int)[string length];
 	unichar *buffer = malloc(sizeof(unichar) * length);
 	NSString *result;
 	BOOL pronunciation = NO;
@@ -1142,7 +1142,7 @@ static ApplicationManager *_instance;
 - (NSString *)stringByRemoveRubiesFromString:(NSString *)string {
 	int i;
 	int pos = 0;
-	int length = [string length];
+	int length = (int)[string length];
 	unichar *buffer = malloc(sizeof(unichar) * length);
 	NSString *result;
 	BOOL ignoring = NO;

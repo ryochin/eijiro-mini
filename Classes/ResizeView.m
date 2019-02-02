@@ -46,7 +46,7 @@
 	if (doAdjust && frameRect.origin.x + frameRect.size.width > screenRect.size.width) {
 		frameRect.size.width = screenRect.size.width - frameRect.origin.x;
 	} else if (doAdjust && !([theEvent modifierFlags] & NSCommandKeyMask) &&
-		   abs(frameRect.origin.x + frameRect.size.width - visibleScreenRect.size.width) < 12.0f) {
+		   fabs(frameRect.origin.x + frameRect.size.width - visibleScreenRect.size.width) < 12.0f) {
 		frameRect.size.width = visibleScreenRect.size.width - frameRect.origin.x;
 	}
 	if (frameRect.size.height < [window minSize].height) {
@@ -54,7 +54,7 @@
 	}
 	frameRect.origin.y -= frameRect.size.height - originalHeight;
 	// 画面下にフィット
-	if (abs(frameRect.origin.y) < 12.0f) {
+	if (fabs(frameRect.origin.y) < 12.0f) {
 		frameRect.origin.y = 0.0f;
 		frameRect.size.height += frameRect.origin.y;
 	}

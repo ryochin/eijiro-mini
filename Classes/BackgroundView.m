@@ -86,7 +86,7 @@ void outputRect(NSString *str, NSRect rect) {
 		if (frameRect.origin.x + frameRect.size.width > screenRect.size.width) {
 			frameRect.size.width = screenRect.size.width - frameRect.origin.x;
 		} else if (!([theEvent modifierFlags] & NSCommandKeyMask) &&
-			   abs(frameRect.origin.x + frameRect.size.width - visibleScreenRect.size.width) < 12.0f) {
+			   fabs(frameRect.origin.x + frameRect.size.width - visibleScreenRect.size.width) < 12.0f) {
 			frameRect.size.width = visibleScreenRect.size.width - frameRect.origin.x;
 		}
 		[window setFrame:frameRect display:YES];
@@ -120,22 +120,22 @@ void outputRect(NSString *str, NSRect rect) {
 		NSRect visibleScreenRect = [currentScreen visibleFrame];
 		
 		if ((screenRect.origin.x == 0 && frameRect.origin.x < 0) ||
-				(!commandKeyPressed && abs(frameRect.origin.x - screenRect.origin.x) < 12)) {
+				(!commandKeyPressed && fabs(frameRect.origin.x - screenRect.origin.x) < 12)) {
 			frameRect.origin.x = screenRect.origin.x;
-		} else if (!commandKeyPressed && abs(frameRect.origin.x+frameRect.size.width-(screenRect.origin.x+screenRect.size.width)) < 12) {
+		} else if (!commandKeyPressed && fabs(frameRect.origin.x+frameRect.size.width-(screenRect.origin.x+screenRect.size.width)) < 12) {
 			frameRect.origin.x = screenRect.origin.x + screenRect.size.width - frameRect.size.width;
 		}
 		// Dock is on left or right side of current screen
 		else if (!commandKeyPressed && screenRect.size.width > visibleScreenRect.size.width) {
 			// Dock is on left
 			if (screenRect.origin.x < visibleScreenRect.origin.x) {
-				if (abs(frameRect.origin.x-visibleScreenRect.origin.x) < 12) {
+				if (fabs(frameRect.origin.x-visibleScreenRect.origin.x) < 12) {
 					frameRect.origin.x = visibleScreenRect.origin.x;
 				}
 			}
 			// Dock is on right
 			else {
-				if (abs(frameRect.origin.x+frameRect.size.width-(visibleScreenRect.origin.x+visibleScreenRect.size.width)) < 12) {
+				if (fabs(frameRect.origin.x+frameRect.size.width-(visibleScreenRect.origin.x+visibleScreenRect.size.width)) < 12) {
 					frameRect.origin.x = visibleScreenRect.origin.x + visibleScreenRect.size.width - frameRect.size.width + 1;
 				}
 			}
@@ -146,20 +146,20 @@ void outputRect(NSString *str, NSRect rect) {
 			// コマンドキーが押されている場合にはコーナーにフィットさせない
 			if (!commandKeyPressed) {
 				// 画面下にくっつく場合
-				if (abs(frameRect.origin.y) < 12.0f) {
+				if (fabs(frameRect.origin.y) < 12.0f) {
 					frameRect.origin.y = 0.0f;
-				} else if (abs(frameRect.origin.y + frameRect.size.height - 28.0f) < 12.0f) {
+				} else if (fabs(frameRect.origin.y + frameRect.size.height - 28.0f) < 12.0f) {
 					frameRect.origin.y = 28.0f - frameRect.size.height;
 				}
 				// 下のDockにくっつく場合
 				else if (screenRect.origin.y < visibleScreenRect.origin.y &&
-						 abs(frameRect.origin.y-visibleScreenRect.origin.y) < 12)
+						 fabs(frameRect.origin.y-visibleScreenRect.origin.y) < 12)
 				{
 					frameRect.origin.y = visibleScreenRect.origin.y - screenRect.origin.y;
 				}
 				// 画面上にくっつく場合
 				if (frameRect.origin.y + frameRect.size.height > visibleScreenRect.origin.y + visibleScreenRect.size.height ||
-					(!commandKeyPressed && abs(frameRect.origin.y + frameRect.size.height - (visibleScreenRect.origin.y + visibleScreenRect.size.height)) < 12))
+					(!commandKeyPressed && fabs(frameRect.origin.y + frameRect.size.height - (visibleScreenRect.origin.y + visibleScreenRect.size.height)) < 12))
 				{
 					frameRect.origin.y = visibleScreenRect.origin.y + visibleScreenRect.size.height - frameRect.size.height;
 				}
@@ -169,17 +169,17 @@ void outputRect(NSString *str, NSRect rect) {
 		else {
 			// 画面下にくっつく場合
 			if (frameRect.origin.y + frameRect.size.height - 28 < screenRect.origin.y ||
-				(!commandKeyPressed && abs(frameRect.origin.y + frameRect.size.height - 28) < 12)) {
+				(!commandKeyPressed && fabs(frameRect.origin.y + frameRect.size.height - 28) < 12)) {
 				frameRect.origin.y = screenRect.origin.y + 28 - frameRect.size.height;
 			}
 			// 下のDockにくっつく場合
 			else if (visibleScreenRect.origin.y > 0 &&
-					 !commandKeyPressed && abs((frameRect.origin.y + frameRect.size.height - 28) - visibleScreenRect.origin.y) < 12) {
+					 !commandKeyPressed && fabs((frameRect.origin.y + frameRect.size.height - 28) - visibleScreenRect.origin.y) < 12) {
 				frameRect.origin.y = visibleScreenRect.origin.y + 28 - frameRect.size.height;
 			}
 			// 画面上にくっつく場合
 			else if (frameRect.origin.y + frameRect.size.height > visibleScreenRect.origin.y + visibleScreenRect.size.height ||
-					   (!commandKeyPressed && abs(frameRect.origin.y + frameRect.size.height - (visibleScreenRect.origin.y + visibleScreenRect.size.height)) < 12)) {
+					   (!commandKeyPressed && fabs(frameRect.origin.y + frameRect.size.height - (visibleScreenRect.origin.y + visibleScreenRect.size.height)) < 12)) {
 				frameRect.origin.y = visibleScreenRect.origin.y + visibleScreenRect.size.height - frameRect.size.height;
 			}
 		}

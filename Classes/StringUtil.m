@@ -16,7 +16,7 @@ BOOL isEnglishWord(NSString *str, BOOL *isAllCapital) {
 	unsigned int i;
 	NSData *data = [str dataUsingEncoding:NSShiftJISStringEncoding];
 	unsigned char *p = (unsigned char *) [data bytes];
-	unsigned int length = [data length];
+	unsigned int length = (unsigned int)[data length];
 	*isAllCapital = YES;
 	for (i = 0; i < length; i++) {
 		if (isFirst2BytesCharacter(p[i])) {

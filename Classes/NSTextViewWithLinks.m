@@ -102,7 +102,7 @@
             NSRect			oneRect;
 
             //	Figure what cursor to show over this link.
-            cursor = [self cursorForLink: linkObject  atIndex: attrsRange.location];
+            cursor = [self cursorForLink: linkObject  atIndex: (int)attrsRange.location];
 
             //	Find the rectangles where this range falls. (We could use -boundingRectForGlyphRange:...,
             //	but that gives a single rectangle, which might be overly large when a link runs

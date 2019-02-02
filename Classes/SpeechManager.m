@@ -122,7 +122,7 @@
 		return;
 	}
 
-	error = StopSpeechAt(speechChannel, stopMode);
+	error = StopSpeechAt(speechChannel, (SInt32)stopMode);
 	if (error != noErr) {
 		[self setError:error pos:0];
 	} else {
@@ -281,7 +281,7 @@ pascal void WordCallBackProc(
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	SpeechManager *speechManager = (SpeechManager *) inRefCon;
-	[speechManager setCurrentSpeakingPos:inWordPos length:inWordLen];
+	[speechManager setCurrentSpeakingPos:(int)inWordPos length:inWordLen];
 	[pool release];
 }
 
@@ -300,7 +300,7 @@ pascal void ErrorCallBackProc(
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	SpeechManager *speechManager = (SpeechManager *) inRefCon;
-	[speechManager setError:inError pos:inBytePos];
+	[speechManager setError:inError pos:(int)inBytePos];
 	[pool release];
 }
 
