@@ -7,132 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D1107280486CEB800E47090 /* EIJIRO mini_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* EIJIRO mini_Prefix.pch */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		8E0EE6BF066A2EDC008A1C0D /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E0EE6BE066A2EDC008A1C0D /* AppIcon.icns */; };
-		8E3017A905B6ADDD00C678F6 /* ApplicationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3017A705B6ADDD00C678F6 /* ApplicationManager.h */; };
-		8E3017AA05B6ADDD00C678F6 /* ApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3017A805B6ADDD00C678F6 /* ApplicationManager.m */; };
-		8E3017B305B6AE7E00C678F6 /* MEPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3017B105B6AE7E00C678F6 /* MEPanel.m */; };
-		8E3017B405B6AE7E00C678F6 /* MEPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3017B205B6AE7E00C678F6 /* MEPanel.h */; };
-		8E45C1D305C6AC4B00AEF010 /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E45C1D105C6AC4B00AEF010 /* StringUtil.h */; };
-		8E45C1D405C6AC4B00AEF010 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E45C1D205C6AC4B00AEF010 /* StringUtil.m */; };
-		8E58C4B805B6CE3500D6CAA3 /* ResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E58C4B605B6CE3500D6CAA3 /* ResizeView.h */; };
-		8E58C4B905B6CE3500D6CAA3 /* ResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58C4B705B6CE3500D6CAA3 /* ResizeView.m */; };
-		8E58C4DD05B6D8F000D6CAA3 /* BackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E58C4DB05B6D8F000D6CAA3 /* BackgroundView.h */; };
-		8E58C4DE05B6D8F000D6CAA3 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58C4DC05B6D8F000D6CAA3 /* BackgroundView.m */; };
-		8E58C54105B6EAF900D6CAA3 /* metal_back.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E58C54005B6EAF900D6CAA3 /* metal_back.tif */; };
-		8E58C5A005B6F64B00D6CAA3 /* metal_light.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E58C59F05B6F64B00D6CAA3 /* metal_light.tif */; };
-		8E58C5C005B7076D00D6CAA3 /* MESearchField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E58C5BE05B7076D00D6CAA3 /* MESearchField.h */; };
-		8E58C5C105B7076D00D6CAA3 /* MESearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58C5BF05B7076D00D6CAA3 /* MESearchField.m */; };
-		8E58C61C05B70A4600D6CAA3 /* resize_indicator.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8E58C61B05B70A4600D6CAA3 /* resize_indicator.tif */; };
-		8E91A3B405B8B5F4002814DB /* SpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E91A3B205B8B5F3002814DB /* SpeechManager.m */; };
-		8E91A3B505B8B5F4002814DB /* SpeechManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E91A3B305B8B5F3002814DB /* SpeechManager.h */; };
-		8EABC0A705B9723C001DBE4D /* sound_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EABC0A605B9723C001DBE4D /* sound_button_disabled.tif */; };
-		8EABC0CE05B989B2001DBE4D /* ResultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC0CC05B989B2001DBE4D /* ResultView.h */; };
-		8EABC0CF05B989B2001DBE4D /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC0CD05B989B2001DBE4D /* ResultView.m */; };
-		8EABC0D105B98C6D001DBE4D /* StickyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8EABC0D005B98C6D001DBE4D /* StickyDocument.nib */; };
-		8EABC0D605B98CC1001DBE4D /* StickyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC0D405B98CC1001DBE4D /* StickyDocument.h */; };
-		8EABC0D705B98CC1001DBE4D /* StickyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC0D505B98CC1001DBE4D /* StickyDocument.m */; };
-		8EABC10C05B98F2A001DBE4D /* StickyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC10A05B98F2A001DBE4D /* StickyWindow.h */; };
-		8EABC10D05B98F2B001DBE4D /* StickyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC10B05B98F2A001DBE4D /* StickyWindow.m */; };
-		8EABC11E05B9922F001DBE4D /* StickyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC11C05B9922F001DBE4D /* StickyView.h */; };
-		8EABC11F05B9922F001DBE4D /* StickyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC11D05B9922F001DBE4D /* StickyView.m */; };
-		8EABC12405B994E3001DBE4D /* ControllableScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC12205B994E3001DBE4D /* ControllableScroller.h */; };
-		8EABC12505B994E3001DBE4D /* ControllableScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC12305B994E3001DBE4D /* ControllableScroller.m */; };
-		8EABC15705B99E12001DBE4D /* close_button_enabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EABC15405B99E12001DBE4D /* close_button_enabled.tif */; };
-		8EABC15805B99E12001DBE4D /* close_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EABC15505B99E12001DBE4D /* close_button_pressed.tif */; };
-		8EABC15905B99E12001DBE4D /* close_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EABC15605B99E12001DBE4D /* close_button.tif */; };
+		2A58C7662205667C0014D6B0 /* SpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7442205667B0014D6B0 /* SpeechManager.m */; };
+		2A58C7672205667C0014D6B0 /* MetalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7452205667B0014D6B0 /* MetalButton.h */; };
+		2A58C7682205667C0014D6B0 /* MESearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7462205667B0014D6B0 /* MESearchField.m */; };
+		2A58C7692205667C0014D6B0 /* MEPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7472205667B0014D6B0 /* MEPanel.m */; };
+		2A58C76A2205667C0014D6B0 /* NSTextViewWithLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7482205667B0014D6B0 /* NSTextViewWithLinks.m */; };
+		2A58C76B2205667C0014D6B0 /* StickyBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7492205667B0014D6B0 /* StickyBackgroundView.m */; };
+		2A58C76C2205667C0014D6B0 /* BackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C74A2205667B0014D6B0 /* BackgroundView.h */; };
+		2A58C76D2205667C0014D6B0 /* StickyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C74B2205667B0014D6B0 /* StickyView.m */; };
+		2A58C76E2205667C0014D6B0 /* StickyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C74C2205667B0014D6B0 /* StickyDocument.m */; };
+		2A58C76F2205667C0014D6B0 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C74D2205667B0014D6B0 /* DraggableView.m */; };
+		2A58C7702205667C0014D6B0 /* ResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C74E2205667B0014D6B0 /* ResizeView.m */; };
+		2A58C7712205667C0014D6B0 /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C74F2205667B0014D6B0 /* ResultView.m */; };
+		2A58C7722205667C0014D6B0 /* ApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7502205667C0014D6B0 /* ApplicationManager.m */; };
+		2A58C7732205667C0014D6B0 /* StickyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7512205667C0014D6B0 /* StickyTitleView.m */; };
+		2A58C7742205667C0014D6B0 /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7522205667C0014D6B0 /* StringUtil.h */; };
+		2A58C7752205667C0014D6B0 /* StickyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7532205667C0014D6B0 /* StickyWindow.m */; };
+		2A58C7762205667C0014D6B0 /* MEPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7542205667C0014D6B0 /* MEPanel.h */; };
+		2A58C7772205667C0014D6B0 /* ResultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7552205667C0014D6B0 /* ResultView.h */; };
+		2A58C7782205667C0014D6B0 /* MESearchField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7562205667C0014D6B0 /* MESearchField.h */; };
+		2A58C7792205667C0014D6B0 /* StickyBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7572205667C0014D6B0 /* StickyBackgroundView.h */; };
+		2A58C77A2205667C0014D6B0 /* ControllableScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7582205667C0014D6B0 /* ControllableScroller.h */; };
+		2A58C77B2205667C0014D6B0 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C7592205667C0014D6B0 /* BackgroundView.m */; };
+		2A58C77C2205667C0014D6B0 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C75A2205667C0014D6B0 /* StringUtil.m */; };
+		2A58C77D2205667C0014D6B0 /* StickyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C75B2205667C0014D6B0 /* StickyView.h */; };
+		2A58C77E2205667C0014D6B0 /* ControllableScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C75C2205667C0014D6B0 /* ControllableScroller.m */; };
+		2A58C77F2205667C0014D6B0 /* MetalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C75D2205667C0014D6B0 /* MetalButton.m */; };
+		2A58C7802205667C0014D6B0 /* SpeechManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C75E2205667C0014D6B0 /* SpeechManager.h */; };
+		2A58C7812205667D0014D6B0 /* DraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C75F2205667C0014D6B0 /* DraggableView.h */; };
+		2A58C7822205667D0014D6B0 /* StickyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7602205667C0014D6B0 /* StickyWindow.h */; };
+		2A58C7832205667D0014D6B0 /* ApplicationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7612205667C0014D6B0 /* ApplicationManager.h */; };
+		2A58C7842205667D0014D6B0 /* StickyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7622205667C0014D6B0 /* StickyDocument.h */; };
+		2A58C7852205667D0014D6B0 /* StickyTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7632205667C0014D6B0 /* StickyTitleView.h */; };
+		2A58C7862205667D0014D6B0 /* ResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7642205667C0014D6B0 /* ResizeView.h */; };
+		2A58C7872205667D0014D6B0 /* NSTextViewWithLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7652205667C0014D6B0 /* NSTextViewWithLinks.h */; };
+		2A58C78A220567020014D6B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58C788220567020014D6B0 /* main.m */; };
+		2A58C79C220567120014D6B0 /* close_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C78C220567120014D6B0 /* close_button.tif */; };
+		2A58C79D220567120014D6B0 /* metal_resize.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C78D220567120014D6B0 /* metal_resize.tif */; };
+		2A58C79E220567120014D6B0 /* go_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C78E220567120014D6B0 /* go_button.tif */; };
+		2A58C79F220567120014D6B0 /* back_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C78F220567120014D6B0 /* back_button.tif */; };
+		2A58C7A0220567120014D6B0 /* back_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C790220567120014D6B0 /* back_button_pressed.tif */; };
+		2A58C7A1220567120014D6B0 /* sound_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C791220567120014D6B0 /* sound_button_pressed.tif */; };
+		2A58C7A2220567120014D6B0 /* close_button_enabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C792220567120014D6B0 /* close_button_enabled.tif */; };
+		2A58C7A3220567120014D6B0 /* back_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C793220567120014D6B0 /* back_button_disabled.tif */; };
+		2A58C7A4220567120014D6B0 /* go_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C794220567120014D6B0 /* go_button_disabled.tif */; };
+		2A58C7A5220567120014D6B0 /* sound_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C795220567120014D6B0 /* sound_button_disabled.tif */; };
+		2A58C7A6220567120014D6B0 /* sound_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C796220567120014D6B0 /* sound_button.tif */; };
+		2A58C7A7220567120014D6B0 /* go_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C797220567120014D6B0 /* go_button_pressed.tif */; };
+		2A58C7A8220567120014D6B0 /* metal_back.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C798220567120014D6B0 /* metal_back.tif */; };
+		2A58C7A9220567120014D6B0 /* close_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C799220567120014D6B0 /* close_button_pressed.tif */; };
+		2A58C7AA220567120014D6B0 /* resize_indicator.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C79A220567120014D6B0 /* resize_indicator.tif */; };
+		2A58C7AB220567120014D6B0 /* metal_light.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C79B220567120014D6B0 /* metal_light.tif */; };
+		2A58C7AD220567270014D6B0 /* StickyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7AC220567270014D6B0 /* StickyDocument.nib */; };
+		2A58C7B22205674C0014D6B0 /* English.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7B02205674C0014D6B0 /* English.lproj */; };
+		2A58C7B32205674C0014D6B0 /* Japanese.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7B12205674C0014D6B0 /* Japanese.lproj */; };
+		2A58C7B7220569980014D6B0 /* EIJIRO mini_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */; };
+		2A58C7B9220569B90014D6B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7B8220569B90014D6B0 /* Info.plist */; };
 		8EABC30F05B9AF31001DBE4D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EABC30E05B9AF31001DBE4D /* Cocoa.framework */; };
-		8EABC31B05B9B469001DBE4D /* DraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC31905B9B469001DBE4D /* DraggableView.h */; };
-		8EABC31C05B9B469001DBE4D /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC31A05B9B469001DBE4D /* DraggableView.m */; };
-		8EABC31F05B9BC0D001DBE4D /* StickyTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC31D05B9BC0D001DBE4D /* StickyTitleView.h */; };
-		8EABC32005B9BC0D001DBE4D /* StickyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC31E05B9BC0D001DBE4D /* StickyTitleView.m */; };
-		8EABC4C605B9DEC3001DBE4D /* StickyBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABC4C405B9DEC3001DBE4D /* StickyBackgroundView.m */; };
-		8EABC4C705B9DEC3001DBE4D /* StickyBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EABC4C505B9DEC3001DBE4D /* StickyBackgroundView.h */; };
-		8EB9F122066CA8E70065D189 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB9F121066CA8E70065D189 /* Localizable.strings */; };
-		8EB9F129066CAD320065D189 /* NSTextViewWithLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9F127066CAD320065D189 /* NSTextViewWithLinks.m */; };
-		8EB9F12A066CAD320065D189 /* NSTextViewWithLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB9F128066CAD320065D189 /* NSTextViewWithLinks.h */; };
-		8EC657F205B86505002EA89B /* metal_resize.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC657F105B86505002EA89B /* metal_resize.tif */; };
-		8EC6581B05B8A7B5002EA89B /* back_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6581705B8A7B5002EA89B /* back_button_pressed.tif */; };
-		8EC6581C05B8A7B5002EA89B /* back_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6581805B8A7B5002EA89B /* back_button.tif */; };
-		8EC6582105B8A886002EA89B /* go_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6581F05B8A886002EA89B /* go_button.tif */; };
-		8EC6582205B8A886002EA89B /* go_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6582005B8A886002EA89B /* go_button_pressed.tif */; };
-		8EC6582505B8A9FB002EA89B /* sound_button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6582305B8A9FB002EA89B /* sound_button.tif */; };
-		8EC6582605B8A9FB002EA89B /* sound_button_pressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6582405B8A9FB002EA89B /* sound_button_pressed.tif */; };
-		8ECEFBC805B963D500EFACE5 /* MetalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECEFBC605B963D500EFACE5 /* MetalButton.h */; };
-		8ECEFBC905B963D500EFACE5 /* MetalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEFBC705B963D500EFACE5 /* MetalButton.m */; };
-		8ECEFBFD05B9692B00EFACE5 /* go_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEFBFC05B9692B00EFACE5 /* go_button_disabled.tif */; };
-		8ECEFC0A05B969E300EFACE5 /* back_button_disabled.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEFC0905B969E300EFACE5 /* back_button_disabled.tif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* EIJIRO mini_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EIJIRO mini_Prefix.pch"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A58C7442205667B0014D6B0 /* SpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeechManager.m; path = Classes/SpeechManager.m; sourceTree = "<group>"; };
+		2A58C7452205667B0014D6B0 /* MetalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetalButton.h; path = Classes/MetalButton.h; sourceTree = "<group>"; };
+		2A58C7462205667B0014D6B0 /* MESearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MESearchField.m; path = Classes/MESearchField.m; sourceTree = "<group>"; };
+		2A58C7472205667B0014D6B0 /* MEPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEPanel.m; path = Classes/MEPanel.m; sourceTree = "<group>"; };
+		2A58C7482205667B0014D6B0 /* NSTextViewWithLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextViewWithLinks.m; path = Classes/NSTextViewWithLinks.m; sourceTree = "<group>"; };
+		2A58C7492205667B0014D6B0 /* StickyBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickyBackgroundView.m; path = Classes/StickyBackgroundView.m; sourceTree = "<group>"; };
+		2A58C74A2205667B0014D6B0 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundView.h; path = Classes/BackgroundView.h; sourceTree = "<group>"; };
+		2A58C74B2205667B0014D6B0 /* StickyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickyView.m; path = Classes/StickyView.m; sourceTree = "<group>"; };
+		2A58C74C2205667B0014D6B0 /* StickyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickyDocument.m; path = Classes/StickyDocument.m; sourceTree = "<group>"; };
+		2A58C74D2205667B0014D6B0 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = Classes/DraggableView.m; sourceTree = "<group>"; };
+		2A58C74E2205667B0014D6B0 /* ResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResizeView.m; path = Classes/ResizeView.m; sourceTree = "<group>"; };
+		2A58C74F2205667B0014D6B0 /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultView.m; path = Classes/ResultView.m; sourceTree = "<group>"; };
+		2A58C7502205667C0014D6B0 /* ApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationManager.m; path = Classes/ApplicationManager.m; sourceTree = "<group>"; };
+		2A58C7512205667C0014D6B0 /* StickyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickyTitleView.m; path = Classes/StickyTitleView.m; sourceTree = "<group>"; };
+		2A58C7522205667C0014D6B0 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = Classes/StringUtil.h; sourceTree = "<group>"; };
+		2A58C7532205667C0014D6B0 /* StickyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickyWindow.m; path = Classes/StickyWindow.m; sourceTree = "<group>"; };
+		2A58C7542205667C0014D6B0 /* MEPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEPanel.h; path = Classes/MEPanel.h; sourceTree = "<group>"; };
+		2A58C7552205667C0014D6B0 /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultView.h; path = Classes/ResultView.h; sourceTree = "<group>"; };
+		2A58C7562205667C0014D6B0 /* MESearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MESearchField.h; path = Classes/MESearchField.h; sourceTree = "<group>"; };
+		2A58C7572205667C0014D6B0 /* StickyBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickyBackgroundView.h; path = Classes/StickyBackgroundView.h; sourceTree = "<group>"; };
+		2A58C7582205667C0014D6B0 /* ControllableScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControllableScroller.h; path = Classes/ControllableScroller.h; sourceTree = "<group>"; };
+		2A58C7592205667C0014D6B0 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundView.m; path = Classes/BackgroundView.m; sourceTree = "<group>"; };
+		2A58C75A2205667C0014D6B0 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringUtil.m; path = Classes/StringUtil.m; sourceTree = "<group>"; };
+		2A58C75B2205667C0014D6B0 /* StickyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickyView.h; path = Classes/StickyView.h; sourceTree = "<group>"; };
+		2A58C75C2205667C0014D6B0 /* ControllableScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControllableScroller.m; path = Classes/ControllableScroller.m; sourceTree = "<group>"; };
+		2A58C75D2205667C0014D6B0 /* MetalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetalButton.m; path = Classes/MetalButton.m; sourceTree = "<group>"; };
+		2A58C75E2205667C0014D6B0 /* SpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechManager.h; path = Classes/SpeechManager.h; sourceTree = "<group>"; };
+		2A58C75F2205667C0014D6B0 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = Classes/DraggableView.h; sourceTree = "<group>"; };
+		2A58C7602205667C0014D6B0 /* StickyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickyWindow.h; path = Classes/StickyWindow.h; sourceTree = "<group>"; };
+		2A58C7612205667C0014D6B0 /* ApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationManager.h; path = Classes/ApplicationManager.h; sourceTree = "<group>"; };
+		2A58C7622205667C0014D6B0 /* StickyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickyDocument.h; path = Classes/StickyDocument.h; sourceTree = "<group>"; };
+		2A58C7632205667C0014D6B0 /* StickyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickyTitleView.h; path = Classes/StickyTitleView.h; sourceTree = "<group>"; };
+		2A58C7642205667C0014D6B0 /* ResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResizeView.h; path = Classes/ResizeView.h; sourceTree = "<group>"; };
+		2A58C7652205667C0014D6B0 /* NSTextViewWithLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSTextViewWithLinks.h; path = Classes/NSTextViewWithLinks.h; sourceTree = "<group>"; };
+		2A58C788220567020014D6B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Resources/main.m; sourceTree = "<group>"; };
+		2A58C78C220567120014D6B0 /* close_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close_button.tif; path = Images/close_button.tif; sourceTree = "<group>"; };
+		2A58C78D220567120014D6B0 /* metal_resize.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = metal_resize.tif; path = Images/metal_resize.tif; sourceTree = "<group>"; };
+		2A58C78E220567120014D6B0 /* go_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = go_button.tif; path = Images/go_button.tif; sourceTree = "<group>"; };
+		2A58C78F220567120014D6B0 /* back_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = back_button.tif; path = Images/back_button.tif; sourceTree = "<group>"; };
+		2A58C790220567120014D6B0 /* back_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = back_button_pressed.tif; path = Images/back_button_pressed.tif; sourceTree = "<group>"; };
+		2A58C791220567120014D6B0 /* sound_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sound_button_pressed.tif; path = Images/sound_button_pressed.tif; sourceTree = "<group>"; };
+		2A58C792220567120014D6B0 /* close_button_enabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close_button_enabled.tif; path = Images/close_button_enabled.tif; sourceTree = "<group>"; };
+		2A58C793220567120014D6B0 /* back_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = back_button_disabled.tif; path = Images/back_button_disabled.tif; sourceTree = "<group>"; };
+		2A58C794220567120014D6B0 /* go_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = go_button_disabled.tif; path = Images/go_button_disabled.tif; sourceTree = "<group>"; };
+		2A58C795220567120014D6B0 /* sound_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sound_button_disabled.tif; path = Images/sound_button_disabled.tif; sourceTree = "<group>"; };
+		2A58C796220567120014D6B0 /* sound_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sound_button.tif; path = Images/sound_button.tif; sourceTree = "<group>"; };
+		2A58C797220567120014D6B0 /* go_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = go_button_pressed.tif; path = Images/go_button_pressed.tif; sourceTree = "<group>"; };
+		2A58C798220567120014D6B0 /* metal_back.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = metal_back.tif; path = Images/metal_back.tif; sourceTree = "<group>"; };
+		2A58C799220567120014D6B0 /* close_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close_button_pressed.tif; path = Images/close_button_pressed.tif; sourceTree = "<group>"; };
+		2A58C79A220567120014D6B0 /* resize_indicator.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = resize_indicator.tif; path = Images/resize_indicator.tif; sourceTree = "<group>"; };
+		2A58C79B220567120014D6B0 /* metal_light.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = metal_light.tif; path = Images/metal_light.tif; sourceTree = "<group>"; };
+		2A58C7AC220567270014D6B0 /* StickyDocument.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = StickyDocument.nib; path = Resources/StickyDocument.nib; sourceTree = "<group>"; };
+		2A58C7B02205674C0014D6B0 /* English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English.lproj; path = Resources/English.lproj; sourceTree = "<group>"; };
+		2A58C7B12205674C0014D6B0 /* Japanese.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Japanese.lproj; path = Resources/Japanese.lproj; sourceTree = "<group>"; };
+		2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EIJIRO mini_Prefix.pch"; path = "Resources/EIJIRO mini_Prefix.pch"; sourceTree = "<group>"; };
+		2A58C7B8220569B90014D6B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* EIJIRO mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EIJIRO mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E0EE6BE066A2EDC008A1C0D /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
-		8E3017A705B6ADDD00C678F6 /* ApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationManager.h; sourceTree = "<group>"; };
-		8E3017A805B6ADDD00C678F6 /* ApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationManager.m; sourceTree = "<group>"; };
-		8E3017B105B6AE7E00C678F6 /* MEPanel.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = MEPanel.m; sourceTree = "<group>"; };
-		8E3017B205B6AE7E00C678F6 /* MEPanel.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = MEPanel.h; sourceTree = "<group>"; };
-		8E45C1D105C6AC4B00AEF010 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
-		8E45C1D205C6AC4B00AEF010 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
-		8E58C4B605B6CE3500D6CAA3 /* ResizeView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = ResizeView.h; sourceTree = "<group>"; };
-		8E58C4B705B6CE3500D6CAA3 /* ResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeView.m; sourceTree = "<group>"; };
-		8E58C4DB05B6D8F000D6CAA3 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
-		8E58C4DC05B6D8F000D6CAA3 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
-		8E58C54005B6EAF900D6CAA3 /* metal_back.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = metal_back.tif; sourceTree = "<group>"; };
-		8E58C59F05B6F64B00D6CAA3 /* metal_light.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = metal_light.tif; sourceTree = "<group>"; };
-		8E58C5BE05B7076D00D6CAA3 /* MESearchField.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = MESearchField.h; sourceTree = "<group>"; };
-		8E58C5BF05B7076D00D6CAA3 /* MESearchField.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = MESearchField.m; sourceTree = "<group>"; };
-		8E58C61B05B70A4600D6CAA3 /* resize_indicator.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = resize_indicator.tif; sourceTree = "<group>"; };
-		8E91A3B205B8B5F3002814DB /* SpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechManager.m; sourceTree = "<group>"; };
-		8E91A3B305B8B5F3002814DB /* SpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechManager.h; sourceTree = "<group>"; };
-		8EABC0A605B9723C001DBE4D /* sound_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sound_button_disabled.tif; sourceTree = "<group>"; };
-		8EABC0CC05B989B2001DBE4D /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
-		8EABC0CD05B989B2001DBE4D /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
-		8EABC0D005B98C6D001DBE4D /* StickyDocument.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StickyDocument.nib; sourceTree = "<group>"; };
-		8EABC0D405B98CC1001DBE4D /* StickyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyDocument.h; sourceTree = "<group>"; };
-		8EABC0D505B98CC1001DBE4D /* StickyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyDocument.m; sourceTree = "<group>"; };
-		8EABC10A05B98F2A001DBE4D /* StickyWindow.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = StickyWindow.h; sourceTree = "<group>"; };
-		8EABC10B05B98F2A001DBE4D /* StickyWindow.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = StickyWindow.m; sourceTree = "<group>"; };
-		8EABC11C05B9922F001DBE4D /* StickyView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = StickyView.h; sourceTree = "<group>"; };
-		8EABC11D05B9922F001DBE4D /* StickyView.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = StickyView.m; sourceTree = "<group>"; };
-		8EABC12205B994E3001DBE4D /* ControllableScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllableScroller.h; sourceTree = "<group>"; };
-		8EABC12305B994E3001DBE4D /* ControllableScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllableScroller.m; sourceTree = "<group>"; };
-		8EABC15405B99E12001DBE4D /* close_button_enabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = close_button_enabled.tif; sourceTree = "<group>"; };
-		8EABC15505B99E12001DBE4D /* close_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = close_button_pressed.tif; sourceTree = "<group>"; };
-		8EABC15605B99E12001DBE4D /* close_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = close_button.tif; sourceTree = "<group>"; };
 		8EABC30E05B9AF31001DBE4D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		8EABC31905B9B469001DBE4D /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
-		8EABC31A05B9B469001DBE4D /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
-		8EABC31D05B9BC0D001DBE4D /* StickyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyTitleView.h; sourceTree = "<group>"; };
-		8EABC31E05B9BC0D001DBE4D /* StickyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyTitleView.m; sourceTree = "<group>"; };
-		8EABC4C405B9DEC3001DBE4D /* StickyBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyBackgroundView.m; sourceTree = "<group>"; };
-		8EABC4C505B9DEC3001DBE4D /* StickyBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyBackgroundView.h; sourceTree = "<group>"; };
-		8EB9F0FB066CA3330065D189 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		8EB9F123066CA8EE0065D189 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8EB9F126066CA9E40065D189 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8EB9F127066CAD320065D189 /* NSTextViewWithLinks.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = NSTextViewWithLinks.m; sourceTree = "<group>"; };
-		8EB9F128066CAD320065D189 /* NSTextViewWithLinks.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = NSTextViewWithLinks.h; sourceTree = "<group>"; };
-		8EC657F105B86505002EA89B /* metal_resize.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = metal_resize.tif; sourceTree = "<group>"; };
-		8EC6581705B8A7B5002EA89B /* back_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = back_button_pressed.tif; sourceTree = "<group>"; };
-		8EC6581805B8A7B5002EA89B /* back_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = back_button.tif; sourceTree = "<group>"; };
-		8EC6581F05B8A886002EA89B /* go_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = go_button.tif; sourceTree = "<group>"; };
-		8EC6582005B8A886002EA89B /* go_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = go_button_pressed.tif; sourceTree = "<group>"; };
-		8EC6582305B8A9FB002EA89B /* sound_button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sound_button.tif; sourceTree = "<group>"; };
-		8EC6582405B8A9FB002EA89B /* sound_button_pressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sound_button_pressed.tif; sourceTree = "<group>"; };
-		8ECEFBC605B963D500EFACE5 /* MetalButton.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = MetalButton.h; sourceTree = "<group>"; };
-		8ECEFBC705B963D500EFACE5 /* MetalButton.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.objc; path = MetalButton.m; sourceTree = "<group>"; };
-		8ECEFBFC05B9692B00EFACE5 /* go_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = go_button_disabled.tif; sourceTree = "<group>"; };
-		8ECEFC0905B969E300EFACE5 /* back_button_disabled.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = back_button_disabled.tif; sourceTree = "<group>"; };
-		8EDE98C305C6BF5700FE61A3 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,40 +144,40 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8E3017A705B6ADDD00C678F6 /* ApplicationManager.h */,
-				8E3017A805B6ADDD00C678F6 /* ApplicationManager.m */,
-				8E58C4DB05B6D8F000D6CAA3 /* BackgroundView.h */,
-				8E58C4DC05B6D8F000D6CAA3 /* BackgroundView.m */,
-				8EABC12205B994E3001DBE4D /* ControllableScroller.h */,
-				8EABC12305B994E3001DBE4D /* ControllableScroller.m */,
-				8EABC31905B9B469001DBE4D /* DraggableView.h */,
-				8EABC31A05B9B469001DBE4D /* DraggableView.m */,
-				8E3017B205B6AE7E00C678F6 /* MEPanel.h */,
-				8E3017B105B6AE7E00C678F6 /* MEPanel.m */,
-				8E58C5BE05B7076D00D6CAA3 /* MESearchField.h */,
-				8E58C5BF05B7076D00D6CAA3 /* MESearchField.m */,
-				8ECEFBC605B963D500EFACE5 /* MetalButton.h */,
-				8ECEFBC705B963D500EFACE5 /* MetalButton.m */,
-				8EB9F128066CAD320065D189 /* NSTextViewWithLinks.h */,
-				8EB9F127066CAD320065D189 /* NSTextViewWithLinks.m */,
-				8E58C4B605B6CE3500D6CAA3 /* ResizeView.h */,
-				8E58C4B705B6CE3500D6CAA3 /* ResizeView.m */,
-				8EABC0CC05B989B2001DBE4D /* ResultView.h */,
-				8EABC0CD05B989B2001DBE4D /* ResultView.m */,
-				8E91A3B305B8B5F3002814DB /* SpeechManager.h */,
-				8E91A3B205B8B5F3002814DB /* SpeechManager.m */,
-				8EABC4C505B9DEC3001DBE4D /* StickyBackgroundView.h */,
-				8EABC4C405B9DEC3001DBE4D /* StickyBackgroundView.m */,
-				8EABC0D405B98CC1001DBE4D /* StickyDocument.h */,
-				8EABC0D505B98CC1001DBE4D /* StickyDocument.m */,
-				8EABC31D05B9BC0D001DBE4D /* StickyTitleView.h */,
-				8EABC31E05B9BC0D001DBE4D /* StickyTitleView.m */,
-				8EABC11C05B9922F001DBE4D /* StickyView.h */,
-				8EABC11D05B9922F001DBE4D /* StickyView.m */,
-				8EABC10A05B98F2A001DBE4D /* StickyWindow.h */,
-				8EABC10B05B98F2A001DBE4D /* StickyWindow.m */,
-				8E45C1D105C6AC4B00AEF010 /* StringUtil.h */,
-				8E45C1D205C6AC4B00AEF010 /* StringUtil.m */,
+				2A58C7612205667C0014D6B0 /* ApplicationManager.h */,
+				2A58C7502205667C0014D6B0 /* ApplicationManager.m */,
+				2A58C74A2205667B0014D6B0 /* BackgroundView.h */,
+				2A58C7592205667C0014D6B0 /* BackgroundView.m */,
+				2A58C7582205667C0014D6B0 /* ControllableScroller.h */,
+				2A58C75C2205667C0014D6B0 /* ControllableScroller.m */,
+				2A58C75F2205667C0014D6B0 /* DraggableView.h */,
+				2A58C74D2205667B0014D6B0 /* DraggableView.m */,
+				2A58C7542205667C0014D6B0 /* MEPanel.h */,
+				2A58C7472205667B0014D6B0 /* MEPanel.m */,
+				2A58C7562205667C0014D6B0 /* MESearchField.h */,
+				2A58C7462205667B0014D6B0 /* MESearchField.m */,
+				2A58C7452205667B0014D6B0 /* MetalButton.h */,
+				2A58C75D2205667C0014D6B0 /* MetalButton.m */,
+				2A58C7652205667C0014D6B0 /* NSTextViewWithLinks.h */,
+				2A58C7482205667B0014D6B0 /* NSTextViewWithLinks.m */,
+				2A58C7642205667C0014D6B0 /* ResizeView.h */,
+				2A58C74E2205667B0014D6B0 /* ResizeView.m */,
+				2A58C7552205667C0014D6B0 /* ResultView.h */,
+				2A58C74F2205667B0014D6B0 /* ResultView.m */,
+				2A58C75E2205667C0014D6B0 /* SpeechManager.h */,
+				2A58C7442205667B0014D6B0 /* SpeechManager.m */,
+				2A58C7572205667C0014D6B0 /* StickyBackgroundView.h */,
+				2A58C7492205667B0014D6B0 /* StickyBackgroundView.m */,
+				2A58C7622205667C0014D6B0 /* StickyDocument.h */,
+				2A58C74C2205667B0014D6B0 /* StickyDocument.m */,
+				2A58C7632205667C0014D6B0 /* StickyTitleView.h */,
+				2A58C7512205667C0014D6B0 /* StickyTitleView.m */,
+				2A58C75B2205667C0014D6B0 /* StickyView.h */,
+				2A58C74B2205667B0014D6B0 /* StickyView.m */,
+				2A58C7602205667C0014D6B0 /* StickyWindow.h */,
+				2A58C7532205667C0014D6B0 /* StickyWindow.m */,
+				2A58C7522205667C0014D6B0 /* StringUtil.h */,
+				2A58C75A2205667C0014D6B0 /* StringUtil.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -217,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -225,18 +218,12 @@
 			name = "Mini EIJIRO";
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32CA4F630368D1EE00C91783 /* EIJIRO mini_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */,
+				2A58C788220567020014D6B0 /* main.m */,
+				2A58C7B8220569B90014D6B0 /* Info.plist */,
 				8EDE98B905C6BF0600FE61A3 /* Images */,
 				8EDE98BA05C6BF1B00FE61A3 /* Nib files */,
 				8EDE98BB05C6BF2800FE61A3 /* Strings */,
@@ -256,23 +243,22 @@
 		8EDE98B905C6BF0600FE61A3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8E0EE6BE066A2EDC008A1C0D /* AppIcon.icns */,
-				8E58C59F05B6F64B00D6CAA3 /* metal_light.tif */,
-				8EC657F105B86505002EA89B /* metal_resize.tif */,
-				8E58C61B05B70A4600D6CAA3 /* resize_indicator.tif */,
-				8EC6582305B8A9FB002EA89B /* sound_button.tif */,
-				8EABC0A605B9723C001DBE4D /* sound_button_disabled.tif */,
-				8EC6582405B8A9FB002EA89B /* sound_button_pressed.tif */,
-				8EC6581805B8A7B5002EA89B /* back_button.tif */,
-				8ECEFC0905B969E300EFACE5 /* back_button_disabled.tif */,
-				8EC6581705B8A7B5002EA89B /* back_button_pressed.tif */,
-				8EABC15605B99E12001DBE4D /* close_button.tif */,
-				8EABC15405B99E12001DBE4D /* close_button_enabled.tif */,
-				8EABC15505B99E12001DBE4D /* close_button_pressed.tif */,
-				8EC6581F05B8A886002EA89B /* go_button.tif */,
-				8ECEFBFC05B9692B00EFACE5 /* go_button_disabled.tif */,
-				8EC6582005B8A886002EA89B /* go_button_pressed.tif */,
-				8E58C54005B6EAF900D6CAA3 /* metal_back.tif */,
+				2A58C793220567120014D6B0 /* back_button_disabled.tif */,
+				2A58C790220567120014D6B0 /* back_button_pressed.tif */,
+				2A58C78F220567120014D6B0 /* back_button.tif */,
+				2A58C792220567120014D6B0 /* close_button_enabled.tif */,
+				2A58C799220567120014D6B0 /* close_button_pressed.tif */,
+				2A58C78C220567120014D6B0 /* close_button.tif */,
+				2A58C794220567120014D6B0 /* go_button_disabled.tif */,
+				2A58C797220567120014D6B0 /* go_button_pressed.tif */,
+				2A58C78E220567120014D6B0 /* go_button.tif */,
+				2A58C798220567120014D6B0 /* metal_back.tif */,
+				2A58C79B220567120014D6B0 /* metal_light.tif */,
+				2A58C78D220567120014D6B0 /* metal_resize.tif */,
+				2A58C79A220567120014D6B0 /* resize_indicator.tif */,
+				2A58C795220567120014D6B0 /* sound_button_disabled.tif */,
+				2A58C791220567120014D6B0 /* sound_button_pressed.tif */,
+				2A58C796220567120014D6B0 /* sound_button.tif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -280,8 +266,7 @@
 		8EDE98BA05C6BF1B00FE61A3 /* Nib files */ = {
 			isa = PBXGroup;
 			children = (
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-				8EABC0D005B98C6D001DBE4D /* StickyDocument.nib */,
+				2A58C7AC220567270014D6B0 /* StickyDocument.nib */,
 			);
 			name = "Nib files";
 			sourceTree = "<group>";
@@ -289,9 +274,8 @@
 		8EDE98BB05C6BF2800FE61A3 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				8EB9F121066CA8E70065D189 /* Localizable.strings */,
+				2A58C7B02205674C0014D6B0 /* English.lproj */,
+				2A58C7B12205674C0014D6B0 /* Japanese.lproj */,
 			);
 			name = Strings;
 			sourceTree = "<group>";
@@ -303,24 +287,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1107280486CEB800E47090 /* EIJIRO mini_Prefix.pch in Headers */,
-				8E3017A905B6ADDD00C678F6 /* ApplicationManager.h in Headers */,
-				8E3017B405B6AE7E00C678F6 /* MEPanel.h in Headers */,
-				8E58C4B805B6CE3500D6CAA3 /* ResizeView.h in Headers */,
-				8E58C4DD05B6D8F000D6CAA3 /* BackgroundView.h in Headers */,
-				8E58C5C005B7076D00D6CAA3 /* MESearchField.h in Headers */,
-				8E91A3B505B8B5F4002814DB /* SpeechManager.h in Headers */,
-				8ECEFBC805B963D500EFACE5 /* MetalButton.h in Headers */,
-				8EABC0CE05B989B2001DBE4D /* ResultView.h in Headers */,
-				8EABC0D605B98CC1001DBE4D /* StickyDocument.h in Headers */,
-				8EABC10C05B98F2A001DBE4D /* StickyWindow.h in Headers */,
-				8EABC11E05B9922F001DBE4D /* StickyView.h in Headers */,
-				8EABC12405B994E3001DBE4D /* ControllableScroller.h in Headers */,
-				8EABC31B05B9B469001DBE4D /* DraggableView.h in Headers */,
-				8EABC31F05B9BC0D001DBE4D /* StickyTitleView.h in Headers */,
-				8EABC4C705B9DEC3001DBE4D /* StickyBackgroundView.h in Headers */,
-				8E45C1D305C6AC4B00AEF010 /* StringUtil.h in Headers */,
-				8EB9F12A066CAD320065D189 /* NSTextViewWithLinks.h in Headers */,
+				2A58C7B7220569980014D6B0 /* EIJIRO mini_Prefix.pch in Headers */,
+				2A58C7672205667C0014D6B0 /* MetalButton.h in Headers */,
+				2A58C7832205667D0014D6B0 /* ApplicationManager.h in Headers */,
+				2A58C76C2205667C0014D6B0 /* BackgroundView.h in Headers */,
+				2A58C7842205667D0014D6B0 /* StickyDocument.h in Headers */,
+				2A58C7822205667D0014D6B0 /* StickyWindow.h in Headers */,
+				2A58C7772205667C0014D6B0 /* ResultView.h in Headers */,
+				2A58C7862205667D0014D6B0 /* ResizeView.h in Headers */,
+				2A58C77A2205667C0014D6B0 /* ControllableScroller.h in Headers */,
+				2A58C7782205667C0014D6B0 /* MESearchField.h in Headers */,
+				2A58C7802205667C0014D6B0 /* SpeechManager.h in Headers */,
+				2A58C77D2205667C0014D6B0 /* StickyView.h in Headers */,
+				2A58C7852205667D0014D6B0 /* StickyTitleView.h in Headers */,
+				2A58C7872205667D0014D6B0 /* NSTextViewWithLinks.h in Headers */,
+				2A58C7762205667C0014D6B0 /* MEPanel.h in Headers */,
+				2A58C7812205667D0014D6B0 /* DraggableView.h in Headers */,
+				2A58C7792205667C0014D6B0 /* StickyBackgroundView.h in Headers */,
+				2A58C7742205667C0014D6B0 /* StringUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,27 +364,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				8E58C54105B6EAF900D6CAA3 /* metal_back.tif in Resources */,
-				8E58C5A005B6F64B00D6CAA3 /* metal_light.tif in Resources */,
-				8E58C61C05B70A4600D6CAA3 /* resize_indicator.tif in Resources */,
-				8EC657F205B86505002EA89B /* metal_resize.tif in Resources */,
-				8EC6581B05B8A7B5002EA89B /* back_button_pressed.tif in Resources */,
-				8EC6581C05B8A7B5002EA89B /* back_button.tif in Resources */,
-				8EC6582105B8A886002EA89B /* go_button.tif in Resources */,
-				8EC6582205B8A886002EA89B /* go_button_pressed.tif in Resources */,
-				8EC6582505B8A9FB002EA89B /* sound_button.tif in Resources */,
-				8EC6582605B8A9FB002EA89B /* sound_button_pressed.tif in Resources */,
-				8ECEFBFD05B9692B00EFACE5 /* go_button_disabled.tif in Resources */,
-				8ECEFC0A05B969E300EFACE5 /* back_button_disabled.tif in Resources */,
-				8EABC0A705B9723C001DBE4D /* sound_button_disabled.tif in Resources */,
-				8EABC0D105B98C6D001DBE4D /* StickyDocument.nib in Resources */,
-				8EABC15705B99E12001DBE4D /* close_button_enabled.tif in Resources */,
-				8EABC15805B99E12001DBE4D /* close_button_pressed.tif in Resources */,
-				8EABC15905B99E12001DBE4D /* close_button.tif in Resources */,
-				8EB9F122066CA8E70065D189 /* Localizable.strings in Resources */,
-				8E0EE6BF066A2EDC008A1C0D /* AppIcon.icns in Resources */,
+				2A58C7B22205674C0014D6B0 /* English.lproj in Resources */,
+				2A58C7AA220567120014D6B0 /* resize_indicator.tif in Resources */,
+				2A58C7A2220567120014D6B0 /* close_button_enabled.tif in Resources */,
+				2A58C79C220567120014D6B0 /* close_button.tif in Resources */,
+				2A58C79D220567120014D6B0 /* metal_resize.tif in Resources */,
+				2A58C79F220567120014D6B0 /* back_button.tif in Resources */,
+				2A58C79E220567120014D6B0 /* go_button.tif in Resources */,
+				2A58C7A9220567120014D6B0 /* close_button_pressed.tif in Resources */,
+				2A58C7B9220569B90014D6B0 /* Info.plist in Resources */,
+				2A58C7AD220567270014D6B0 /* StickyDocument.nib in Resources */,
+				2A58C7A5220567120014D6B0 /* sound_button_disabled.tif in Resources */,
+				2A58C7A4220567120014D6B0 /* go_button_disabled.tif in Resources */,
+				2A58C7A3220567120014D6B0 /* back_button_disabled.tif in Resources */,
+				2A58C7A0220567120014D6B0 /* back_button_pressed.tif in Resources */,
+				2A58C7AB220567120014D6B0 /* metal_light.tif in Resources */,
+				2A58C7A7220567120014D6B0 /* go_button_pressed.tif in Resources */,
+				2A58C7A8220567120014D6B0 /* metal_back.tif in Resources */,
+				2A58C7A1220567120014D6B0 /* sound_button_pressed.tif in Resources */,
+				2A58C7A6220567120014D6B0 /* sound_button.tif in Resources */,
+				2A58C7B32205674C0014D6B0 /* Japanese.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,58 +394,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				8E3017AA05B6ADDD00C678F6 /* ApplicationManager.m in Sources */,
-				8E3017B305B6AE7E00C678F6 /* MEPanel.m in Sources */,
-				8E58C4B905B6CE3500D6CAA3 /* ResizeView.m in Sources */,
-				8E58C4DE05B6D8F000D6CAA3 /* BackgroundView.m in Sources */,
-				8E58C5C105B7076D00D6CAA3 /* MESearchField.m in Sources */,
-				8E91A3B405B8B5F4002814DB /* SpeechManager.m in Sources */,
-				8ECEFBC905B963D500EFACE5 /* MetalButton.m in Sources */,
-				8EABC0CF05B989B2001DBE4D /* ResultView.m in Sources */,
-				8EABC0D705B98CC1001DBE4D /* StickyDocument.m in Sources */,
-				8EABC10D05B98F2B001DBE4D /* StickyWindow.m in Sources */,
-				8EABC11F05B9922F001DBE4D /* StickyView.m in Sources */,
-				8EABC12505B994E3001DBE4D /* ControllableScroller.m in Sources */,
-				8EABC31C05B9B469001DBE4D /* DraggableView.m in Sources */,
-				8EABC32005B9BC0D001DBE4D /* StickyTitleView.m in Sources */,
-				8EABC4C605B9DEC3001DBE4D /* StickyBackgroundView.m in Sources */,
-				8E45C1D405C6AC4B00AEF010 /* StringUtil.m in Sources */,
-				8EB9F129066CAD320065D189 /* NSTextViewWithLinks.m in Sources */,
+				2A58C76F2205667C0014D6B0 /* DraggableView.m in Sources */,
+				2A58C77F2205667C0014D6B0 /* MetalButton.m in Sources */,
+				2A58C7722205667C0014D6B0 /* ApplicationManager.m in Sources */,
+				2A58C76E2205667C0014D6B0 /* StickyDocument.m in Sources */,
+				2A58C76B2205667C0014D6B0 /* StickyBackgroundView.m in Sources */,
+				2A58C77B2205667C0014D6B0 /* BackgroundView.m in Sources */,
+				2A58C7682205667C0014D6B0 /* MESearchField.m in Sources */,
+				2A58C7692205667C0014D6B0 /* MEPanel.m in Sources */,
+				2A58C7702205667C0014D6B0 /* ResizeView.m in Sources */,
+				2A58C7662205667C0014D6B0 /* SpeechManager.m in Sources */,
+				2A58C77E2205667C0014D6B0 /* ControllableScroller.m in Sources */,
+				2A58C76A2205667C0014D6B0 /* NSTextViewWithLinks.m in Sources */,
+				2A58C76D2205667C0014D6B0 /* StickyView.m in Sources */,
+				2A58C77C2205667C0014D6B0 /* StringUtil.m in Sources */,
+				2A58C7712205667C0014D6B0 /* ResultView.m in Sources */,
+				2A58C7752205667C0014D6B0 /* StickyWindow.m in Sources */,
+				2A58C78A220567020014D6B0 /* main.m in Sources */,
+				2A58C7732205667C0014D6B0 /* StickyTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
-				8EB9F126066CA9E40065D189 /* Japanese */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
-				8EB9F0FB066CA3330065D189 /* Japanese */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
-		8EB9F121066CA8E70065D189 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EDE98C305C6BF5700FE61A3 /* English */,
-				8EB9F123066CA8EE0065D189 /* Japanese */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8E568A1408E208AA002DF0AF /* Development */ = {
@@ -479,12 +432,12 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EIJIRO mini_Prefix.pch";
+				GCC_PREFIX_HEADER = "Resources/EIJIRO mini_Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -515,12 +468,12 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EIJIRO mini_Prefix.pch";
+				GCC_PREFIX_HEADER = "Resources/EIJIRO mini_Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -548,12 +501,12 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EIJIRO mini_Prefix.pch";
+				GCC_PREFIX_HEADER = "Resources/EIJIRO mini_Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -575,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
@@ -584,6 +538,7 @@
 		8E568A1908E208AA002DF0AF /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};
@@ -592,6 +547,7 @@
 		8E568A1A08E208AA002DF0AF /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};
