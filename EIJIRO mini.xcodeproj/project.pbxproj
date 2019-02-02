@@ -62,6 +62,7 @@
 		2A58C7B22205674C0014D6B0 /* English.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7B02205674C0014D6B0 /* English.lproj */; };
 		2A58C7B32205674C0014D6B0 /* Japanese.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A58C7B12205674C0014D6B0 /* Japanese.lproj */; };
 		2A58C7B7220569980014D6B0 /* EIJIRO mini_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */; };
+		2A9BF9EF2205ADE80039F482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9BF9EE2205ADE80039F482 /* Images.xcassets */; };
 		8EABC30F05B9AF31001DBE4D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EABC30E05B9AF31001DBE4D /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +125,7 @@
 		2A58C7B12205674C0014D6B0 /* Japanese.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Japanese.lproj; path = Resources/Japanese.lproj; sourceTree = "<group>"; };
 		2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EIJIRO mini_Prefix.pch"; path = "Resources/EIJIRO mini_Prefix.pch"; sourceTree = "<group>"; };
 		2A58C7B8220569B90014D6B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		2A9BF9EE2205ADE80039F482 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "EIJIRO mini/Images.xcassets"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* EIJIRO mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EIJIRO mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EABC30E05B9AF31001DBE4D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -220,6 +222,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A9BF9EE2205ADE80039F482 /* Images.xcassets */,
 				2A58C7B52205691B0014D6B0 /* EIJIRO mini_Prefix.pch */,
 				2A58C788220567020014D6B0 /* main.m */,
 				2A58C7B8220569B90014D6B0 /* Info.plist */,
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A58C7B22205674C0014D6B0 /* English.lproj in Resources */,
+				2A9BF9EF2205ADE80039F482 /* Images.xcassets in Resources */,
 				2A58C7AA220567120014D6B0 /* resize_indicator.tif in Resources */,
 				2A58C7A2220567120014D6B0 /* close_button_enabled.tif in Resources */,
 				2A58C79C220567120014D6B0 /* close_button.tif in Resources */,
@@ -419,6 +423,7 @@
 		8E568A1408E208AA002DF0AF /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -458,6 +463,7 @@
 		8E568A1508E208AA002DF0AF /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -493,6 +499,7 @@
 		8E568A1608E208AA002DF0AF /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
